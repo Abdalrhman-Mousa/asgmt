@@ -1,0 +1,199 @@
+
+.nav {
+    background-color: rgb(35, 35, 35); 
+    text-align: left;
+    list-style-type: none;
+	position: sticky;
+	top: 0;
+    border: 10px;
+    border-color: antiquewhite;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+.logo {
+    display:inline-block;
+}
+body{
+    background-color: rgb(35, 35, 35);
+    font-family: 'Raleway'
+   }
+
+#img1 img {  
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  }
+  .text{
+    text-align: center;
+    color :white ;
+    font-family:"Brush Script MT"
+  }
+  figure {
+    border: thin #c0c0c0 solid;
+    display: inline-block;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+
+
+.drinks img {
+    max-width: 220px;
+    max-height: 250px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    position:relative;
+    text-align:center; 
+}
+
+.text1 {
+    position:absolute;
+    top:30px;
+    text-align: center;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* center text */
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway'
+ }
+
+.container1{
+    width: 50%;
+    padding: 1px;
+}
+.flo  {
+    float: left;
+    width: 200px; 
+    height: 300px;
+    padding: 0 10px 0 0;
+ }
+ .textflo{
+    text-align: justify;
+    color: #fff;
+ }
+.but{
+    text-align: right;
+}
+
+.container3{
+    width: 50%;
+    padding: 1px;
+    margin-left: auto; 
+    margin-right: 0;
+    }
+    
+    .cen{
+        text-align: center;
+        color: #fff;
+    }
+    /* review*/
+    .container4 {
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 0
+      }
+      
+      .container4::after {
+        clear: both;
+        display: table;
+      }
+      
+      .container4 img {
+        float: left;
+        margin-right: 20px;
+      }
+      
+      .container4 span {
+        font-size: 20px;
+        margin-right: 15px;
+      }
+      
+      @media (max-width: 500px) {
+        .container {
+            text-align: center;
+        }
+        .container4 img {
+            margin: auto;
+            float: none;
+            display: block;
+        }
+      }
+      .blog {
+        text-align: center;
+      }
+      .newsletter{
+        text-align: center;
+      }
+
+    .footer{
+        display: inline-block
+
+    }
+    .lan{
+        display: inline;
+        text-align: right;
+        align-items: center;
+        color: #fff;
+    }
+    .form{
+        color: #fff;
+        text-align: left;
+        padding-left: 110px;
+    }
+
+    .img12{
+        width:25%
+        
+    }
+    .con{
+        display: inline-block;
+    }
+    .img-container {
+        float: right;
+        width: 35%;
+        padding-right: 155px;
+        padding-top: 55px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
